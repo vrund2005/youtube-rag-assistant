@@ -44,7 +44,7 @@ It processes video transcripts and generates **context-aware answers** using LLM
 ```bash
 .
 ├── yt_app.py
-├── .env
+├── requirements.txt
 └── README.md
 ```
 
