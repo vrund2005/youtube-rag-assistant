@@ -1,4 +1,4 @@
-# 🎥 YouTube Q&A Assistant (RAG with LangChain + Gemini)
+# 🎥 YouTube Q&A Assistant (RAG with LangChain + Groq)
 
 ## 📌 Overview
 
