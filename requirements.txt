@@ -1,6 +1,9 @@
-streamlit
 langchain
-langchain-google-genai
-faiss-cpu
-python-dotenv
+dotenv
+langchain-groq
 youtube-transcript-api
+langchain-text-splitters
+langchain_community
+langchain-google-genai
+sentence-transformers 
+faiss-cpu
