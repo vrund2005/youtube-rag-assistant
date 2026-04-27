@@ -15,7 +15,7 @@ It processes video transcripts and generates **context-aware answers** using LLM
 3. Generate embeddings
 4. Store in FAISS vector database
 5. Retrieve relevant chunks based on query
-6. Generate answer using LLM (Gemini)
+6. Generate answer using LLM
 
 ---
 
@@ -24,7 +24,6 @@ It processes video transcripts and generates **context-aware answers** using LLM
 * Context-aware Q&A from video content
 * Efficient retrieval using FAISS
 * Chunking strategy for better accuracy
-* Interactive Streamlit UI
 
 ---
 
@@ -32,9 +31,8 @@ It processes video transcripts and generates **context-aware answers** using LLM
 
 * Python
 * LangChain
-* Google Gemini (LLM)
+* Groq (LLM)
 * FAISS (Vector DB)
-* Streamlit
 * YouTube Transcript API
 
 ---
@@ -43,7 +41,7 @@ It processes video transcripts and generates **context-aware answers** using LLM
 
 ```bash
 .
-├── yt_app.py
+├── yt_app.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -69,12 +67,6 @@ pip install -r requirements.txt
 
 ```bash
 GOOGLE_API_KEY=your_key_here
-```
-
-4. Run app
-
-```bash
-streamlit run yt_app.py
 ```
 
 ---
